@@ -1,0 +1,102 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* navbar CSS */
+.navbar {
+    background-color: #F05A70;
+}
+
+.circle-icon {
+    background: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#navbarSupportedContent{
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+/* left column CSS */
+.left_column {
+    background-color: #F05A70;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Section 1 CSS */
+.travel {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #010101E0;
+    line-height: 34px;
+}
+
+#boldlabel {
+    font-weight: 700;
+}
+
+.section1 {
+    border-style: groove;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 2px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section_heading {
+    background-color: #00000029;
+    padding: 10px;
+}
+
+#From {
+    width: 300px;
+}
+
+#to {
+    width: 300px;
+}
+
+#date {
+    width: 300px;
+}
+
+
+/* employee dropdown CSS */
+#emp {
+    width: 350px;
+}
+
+
+/* employee form CSS */
+#agenda {
+    width: 350px;
+}
+
+
+/* button1 CSS */
+.intermediate_city_button {
+    padding: 20px;
+    border-width: 0.5px;
+}
+
+/* button2 CSS */
+#button2 {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    border: none;
+    margin-top: 100px;
+    background-color: #F05A70;
+}

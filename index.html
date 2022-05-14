@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" minimum-scale="1.0" maximum-scale="1.0">
+    <title>Project</title>
+
+    <!-- Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Customized Stylesheet -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--Font awesome icons-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!--CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!--Google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Aladin' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+
+            <!-- Collapsible wrapper -->
+            <div class="text-white" id="navbarSupportedContent">
+                <!-- Navbar brand -->
+                <a class="navbar-brand mt-2 mt-lg-0 text-white" href="#">
+                    LOGO
+                </a>
+            </div>
+            <!-- Collapsible wrapper -->
+
+            <!-- Right elements -->
+            <div class="d-flex align-items-center">
+                <a class="text-reset me-3 " href="#">
+                    <i class="fas fa-2x fa-search circle-icon"></i>
+                </a>
+                <a class="text-reset me-3 " href="#">
+                    <i class="fas fa-2x fa-bell circle-icon"></i>
+                </a>
+
+                <a class="text-reset me-3 " href="#">
+                    <i class="fas fa-2x fa-user circle-icon"></i>
+                </a>
+            </div>
+            <!-- Right elements -->
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!--main body items-->
+    <!--left side menu/Dashboard-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-3 p-2 left_column">
+                <div class="col mt-lg-5">
+                    <a class="text-reset" href="#">
+                        <span class="m-1"><i class="fas fa-bars"></i></span></i><span
+                            class="text-white m-3">Dashboard</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="text-reset" href="#">
+                        <span class="m-1"><i class="fas fa-plus"></i></span></i><span class="text-white m-3">Add travel
+                            claim</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="text-reset" href="#">
+                        <span class="m-1"><i class="fas fa-plus"></i></span></i><span class="text-white m-3">Add Other
+                            Expence</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="text-reset" href="#">
+                        <span class="m-1"><i class="fas fa-plus"></i></span></i><span class="text-white m-3">Add Local
+                            Conveyance</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a class="text-reset" href="#">
+                        <span class="m-1"><i class="fas fa-spinner"></i></span></i><span
+                            class="text-white m-3">Sync</span>
+                    </a>
+                </div>
+            </div>
+            <!--Right side Body contents-->
+            <div class="col-lg-9 col-md-9">
+                <!--Heading-->
+                <div class="container mt-2">
+                    <h3 class="pt-3 travel">Travel Claim</h3>
+                    <hr>
+                    <a href="#">Back</a>
+                </div>
+                <!--Employee section form-->
+                <div class="row mt-3 ml-3">
+                    <div class="col-lg-4">
+                        <form action="#">
+                            <label for="Employee" id="boldlabel">Employee</label><br>
+                            <select name="Employee" id="emp" class="p-1">
+                                <option value="Employee">Employee 1</option>
+                                <option value="Employee">Employee 2</option>
+                                <option value="Employee">Employee 3</option>
+                                <option value="Employee">Employee 4</option>
+                                <option value="Employee">Employee 5</option>
+                            </select>
+                        </form>
+                    </div>
+                    <!--Agenda section form-->
+                    <div class="col-lg-4">
+                        <form action="#">
+                            <label for="Agenda" id="boldlabel">Agenda</label><br>
+                            <input type="text p-2" id="agenda" placeholder="Please enter your agenda here">
+                        </form>
+                    </div>
+                    <!--Approval; file section form-->
+                    <div class="col-lg-4">
+                        <form action="#">
+                            <label for="approval" id="boldlabel">Approval file</label><br>
+                            <input type="file" id="myFile" name="file">
+                        </form>
+                    </div>
+                </div>
+                <!--Travel Detail-->
+                <div class="container section1 ml-4">
+                    <div class="row">
+                        <div class="col-lg-12 section_heading">
+                            <h6> Section 1 : Travel details</h6>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-lg-6">
+                            <form action="#">
+                                <label for="from">From</label><br>
+                                <select name="From" id="From">
+                                    <option value="place" disabled selected hidden>Select Start place</option>
+                                    <option value="place">Agra</option>
+                                    <option value="place">Delhi</option>
+                                    <option value="place">Lucknow</option>
+                                    <option value="place">Kanpur</option>
+                                </select><br><br>
+                                <input type="date" id="date">
+                            </form>
+                        </div>
+                        <div class="col-lg-6">
+                            <form action="#">
+                                <label for="to">To</label><br>
+                                <select name="to" id="to">
+                                    <option value="place" disabled selected hidden>Select end place</option>
+                                    <option value="place">Mumbai</option>
+                                    <option value="place">Bangalore</option>
+                                    <option value="place">Hyderabad</option>
+                                    <option value="place">Varanasi</option>
+                                </select><br><br>
+                                <input type="date" id="date">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="intermediate_city_button">
+                    <button type="button" id="button1">ADD INTERMEDIATE CITY</button>
+                    <hr>
+                    <br>
+                    <button type="button" id="button2">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Javascript -->
+    <script src="js/bootstrap.js"></script>
+
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+
+</body>
+
+</html>
